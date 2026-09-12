@@ -1,0 +1,33 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution & Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Test outputs & temporary PCAPs
+*.pcap
+*.pcapng
+test_report.json
+test_report.csv
+test_output.json
+test_output.csv
+generate_test_pcap.py
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
